@@ -59,28 +59,35 @@ const questions = [
         type: "input",
         message: "Please describe how to run any tests.",
     },
-    // Question 9: Questions Contact Github
+    // Question 9: Questions Contact - Github
     {
         name: "questions",
         type: "input",
         message: "Please provide your Github username.",
     },
-    // Question 10: Questions Contact Email
+    // Question 10: Questions Contact - Email
     {
         name: "questions",
         type: "input",
         message: "Please provide your email address.",
     },
 
-
-
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) throw error;
+        console.log("The README file has been successfully generated!");
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(function (userInput) {
+        writeNewFile("README.md", generateMarkdown(userInput));
+    });
+}
 
 // Function call to initialize app
 init();
