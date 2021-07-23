@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./Develop/utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -42,7 +42,7 @@ const questions = [
         name: "license",
         type: "list",
         message: "Please choose from the below license options.",
-        options: [
+        choices: [
             "GNU AGPLv3",
             "GNU GPLv3",
             "GNU LGPLv3",
@@ -61,13 +61,13 @@ const questions = [
     },
     // Question 9: Questions Contact - Github
     {
-        name: "questions",
+        name: "github",
         type: "input",
         message: "Please provide your Github username.",
     },
     // Question 10: Questions Contact - Email
     {
-        name: "questions",
+        name: "email",
         type: "input",
         message: "Please provide your email address.",
     },

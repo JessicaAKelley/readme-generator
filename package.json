@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JessicaAKelley/readme-generator#readme",
   "dependencies": {
+    "form-data": "^4.0.0",
     "inquirer": "^8.1.2"
   }
 }
