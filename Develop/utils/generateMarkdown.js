@@ -59,7 +59,7 @@ function generateMarkdown(data) {
 
 ## Questions
   To check out other repositories by this user, click here: [https://github.com/${data/github}](https://github.com/${data.github})
-  </br>
+
   For any questions, comments, or suggestions, I can also be contacted at ${data.email}
 
 
