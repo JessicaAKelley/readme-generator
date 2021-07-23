@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "None") {
-    return"";
+    return "";
   } else {
     return `![github license]`
   }
@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
   if (license !== "None") {
     return `\n For license link, please check`
   }
-  return"";
+  return "";
 }
 
 // TODO: Create a function that returns the license section of README
@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
 ## Questions
-  To check out other repositories by this user, click here: [https://github.com/${data/github}](https://github.com/${data.github})
+
 
   For any questions, comments, or suggestions, I can also be contacted at ${data.email}
 
