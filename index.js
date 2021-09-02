@@ -50,9 +50,9 @@ const questions = [
     type: "input",
     message: "Please provide instructions and examples for use.",
   },
-  // Question 6: Contribution
+  // Question 6: Contributing
   {
-    name: "contribution",
+    name: "contributing",
     type: "input",
     message: "Please provide any and all project contributors.",
   },
