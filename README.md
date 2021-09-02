@@ -2,12 +2,12 @@
   ![badge](https://img.shields.io/badge/license-MIT%20License-green)
   
   ## Description 
-  Generates READMEs utilizing user input.
+  Generates READMEs by utilizing user input.
   
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#Contribution)
+  * [Contributing](#Contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
@@ -16,9 +16,9 @@
   Install dependencies.
   
   ## Usage 
-  Generate READMEs for projects at ease.
+  Use to generate READMEs at ease.
   
-  ## Contribution
+  ## Contributing
   Jessica Kelley
   
   ## Tests
