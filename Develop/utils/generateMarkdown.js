@@ -122,7 +122,7 @@ function generateMarkdown(data) {
   ${data.contribution}
   
   ## Tests
-  ${data.test}
+  ${data.tests}
 
   ## Questions
   For any questions, comments, or suggestions, I can be reached at ${data.email}
