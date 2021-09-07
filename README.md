@@ -3,11 +3,13 @@
   
   ## Description 
   A command-line application utilizing Node.js to create README files with ease by prompting the user with a series of questions about their project.
+
+  For more information, please watch this [walk-through video](https://drive.google.com/file/d/1orAZSETDC154IBiYkJPToH7cV1B4xcYb/view) further explaining the application.
   
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#Contributing)
+  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
@@ -28,6 +30,7 @@
 
   ## Questions
   For any questions, comments, or suggestions, I can be reached at kelleyajessica@gmail.com
+  <br />
   <br />
   Check out more of my projects here: [https://github.com/JessicaAKelley](https://github.com/JessicaAKelley)
   
