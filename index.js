@@ -1,7 +1,7 @@
 // TO DO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./Develop/utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TO DO: Create an array of questions for user input
 const questions = [
@@ -9,31 +9,71 @@ const questions = [
   {
     name: "name",
     type: "input",
-    message: "What is your name?",
+    message: "What is your name? (Required)",
+    validate: (nameInput) => {
+      if (nameInput) {
+        return true;
+      } else {
+        console.log("Please enter your name.");
+        return false;
+      }
+    },
   },
   // Question 2: Developer GitHub Username
   {
     name: "github",
     type: "input",
-    message: "What is your GitHub username?",
+    message: "What is your GitHub username? (Required)",
+    validate: (githubInput) => {
+      if (githubInput) {
+        return true;
+      } else {
+        console.log("Please enter your GitHub username.");
+        return false;
+      }
+    },
   },
   // Question 3: Developer Email Address
   {
     name: "email",
     type: "input",
-    message: "What is your email address?",
+    message: "What is your email address? (Required)",
+    validate: (emailInput) => {
+      if (emailInput) {
+        return true;
+      } else {
+        console.log("Please enter your email address.");
+        return false;
+      }
+    },
   },
   // Question 4: Project Title
   {
     name: "title",
     type: "input",
-    message: "What is your project title?",
+    message: "What is your project title? (Required)",
+    validate: (titleInput) => {
+      if (titleInput) {
+        return true;
+      } else {
+        console.log("Please enter your project title.");
+        return false;
+      }
+    },
   },
   // Question 2: Description of Project
   {
     name: "description",
     type: "input",
-    message: "Please describe your project.",
+    message: "Please describe your project. (Required)",
+    validate: (descriptionInput) => {
+      if (descriptionInput) {
+        return true;
+      } else {
+        console.log("Please enter your project description.");
+        return false;
+      }
+    },
   },
   // Question 3: Table of Contents
 

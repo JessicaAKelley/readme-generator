@@ -2,7 +2,7 @@
   ![badge](https://img.shields.io/badge/license-MIT%20License-green)
   
   ## Description 
-  Generates READMEs by utilizing user input.
+  A command-line application utilizing Node.js to create READMEs with ease.
   
   ## Table of Contents
   * [Installation](#installation)
@@ -13,19 +13,20 @@
   * [License](#license)
   
   ## Installation
-  Install dependencies.
+  idk
   
   ## Usage 
-  Use to generate READMEs at ease.
+  sfee
   
   ## Contributing
-  Jessica Kelley
+  dfhfh
   
   ## Tests
-  Test.
+  
 
   ## Questions
   For any questions, comments, or suggestions, I can be reached at kelleyajessica@gmail.com
+  <br />
   Check out more of my projects here: [https://github.com/JessicaAKelley](https://github.com/JessicaAKelley)
   
   ## License
