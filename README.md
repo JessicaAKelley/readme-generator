@@ -2,7 +2,7 @@
   ![badge](https://img.shields.io/badge/license-MIT%20License-green)
   
   ## Description 
-  A command-line application utilizing Node.js to create READMEs with ease.
+  A command-line application utilizing Node.js to create README files with ease by prompting the user with a series of questions about their project.
   
   ## Table of Contents
   * [Installation](#installation)
@@ -13,16 +13,18 @@
   * [License](#license)
   
   ## Installation
-  idk
+  Once the application has been downloaded or cloned, cd into the terminal of the project repository and type "npm install" in order to
+  install the necessary files and dependencies for the application to run.
   
   ## Usage 
-  sfee
+  The README Generator utilizes a series of prompted questions to help users create README files with ease.
   
   ## Contributing
-  dfhfh
+  NPM website, documentation, and all who made the application possible to create.
   
   ## Tests
-  
+  Once npm inquirer is installed, type "node index" in the terminal to initialize the application where you will be prompted with a series
+  of questions. Please note some questions are required to answer and are accompanied with validation to ensure a response.
 
   ## Questions
   For any questions, comments, or suggestions, I can be reached at kelleyajessica@gmail.com
